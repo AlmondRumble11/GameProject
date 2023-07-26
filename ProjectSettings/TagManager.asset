@@ -3,7 +3,35 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - DemonHeart
+  - GameLogicManager
+  - Minion1
+  - EnemySpawn
+  - PlayerWeapon
+  - BossSpawner
+  - Boss1
+  - UpgradeManager
+  - Portal
+  - SpinningProjectile
+  - Projectile
+  - PortalStore
+  - SceneSwitcher
+  - EnemyFirePoint
+  - EnemyProjectile
+  - TrackingBullet
+  - Major2
+  - Boss2
+  - Boss3
+  - Minion2
+  - Major1
+  - Wall
+  - EnemyDeathAnimation
+  - HomeButton
+  - PlayerInputButton
+  - PlayerInputText
+  - ActionLog
+  - GameOverText
   layers:
   - Default
   - TransparentFX
