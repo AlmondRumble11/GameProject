@@ -97,10 +97,15 @@ public class MinionScript : MonoBehaviour
     }
 
     // Area of the lines of site (i.e when to start moving)
+    // https://www.youtube.com/watch?v=lHLZxd0O6XY
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, lineOfSite);
+        if (health > 0)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, lineOfSite);
+        }
+
     }
 
     // Collides with other object

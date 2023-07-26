@@ -249,7 +249,7 @@ public class PlayerScript : MonoBehaviour
             case UpgradesTypes.AreaShot:
                 currentPlayerProjectile = new Projectile
                 {
-                    Damage = (int)newUpgrade.Value,
+                    Damage = (int)newUpgrade.Value + GameData.currentPlayerProjectile.Damage,
                     Type = ProjectileType.AreaShot
                 };
                 upgradeManagerScript.ProjectileValues = currentPlayerProjectile;

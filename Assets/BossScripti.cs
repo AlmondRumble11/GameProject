@@ -155,6 +155,7 @@ public class BossScripti : MonoBehaviour
     }
 
     // Line of site area
+    // https://www.youtube.com/watch?v=lHLZxd0O6XY
     private void OnDrawGizmosSelected()
     {
         if (health > 0)

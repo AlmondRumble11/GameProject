@@ -26,6 +26,10 @@ public class LeaderboardTable : MonoBehaviour
     // Scores
     public List<ScoreData.ScoreDataContainer> scoreList = new List<ScoreData.ScoreDataContainer>() { };
 
+    // Transforms
+    public List<Transform> leaderboardEntries = new List<Transform>();
+
+
     // Game over text
     public Text gameOverText;
 
@@ -82,15 +86,24 @@ public class LeaderboardTable : MonoBehaviour
 
         scoreList.Add(playerData.GetContainer());
         SaveScores();
+
         UpdateLeaderboard();
 
     }
 
     public void UpdateLeaderboard()
     {
-        //container = transform.Find("tableContainer");
-        //template = container.Find("tableTemplate");
+
         template.gameObject.SetActive(false);
+
+
+        // Clear the existing leaderboard entries if any
+        foreach (var entry in leaderboardEntries)
+        {
+            Destroy(entry.gameObject);
+        }
+        leaderboardEntries.Clear();
+
         var templateheigh = 30f;
         var index = 0;
         foreach (var score in scoreList.OrderBy(x => !x.fullRun).ThenByDescending(x => x.level).ThenBy(x => x.time).ToList())
@@ -100,9 +113,10 @@ public class LeaderboardTable : MonoBehaviour
             var rectTransform = transform.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = new Vector2(0, -templateheigh * index);
             transform.gameObject.SetActive(true);
-            index++;
+            leaderboardEntries.Add(transform);
+
             // Add list values
-            transform.Find("posText").GetComponent<Text>().text = index.ToString();
+            transform.Find("posText").GetComponent<Text>().text = (index + 1).ToString();
             transform.Find("nameText").GetComponent<Text>().text = score.playerName?.ToString();
             transform.Find("timeText").GetComponent<Text>().text = FormatTime(score.time);
             transform.Find("completionText").GetComponent<Text>().text = score.fullRun.ToString();
@@ -110,11 +124,15 @@ public class LeaderboardTable : MonoBehaviour
 
 
             // Max lines is 15. Otherwise goes over the screen height limit
-            if (index == 15)
+            if (index == 14)
             {
                 break;
             }
+            index++;
         }
+
+        // Show the template object again after updating the leaderboard
+        // template.gameObject.SetActive(true);
     }
 
     // Format the time. Same code as in the gamelogic manager but for some reason calling it in this script some times crashed the game
@@ -168,6 +186,7 @@ public class ScoreData
     public int Level { get; set; }
 
     // This is to get the score data for the JSON -> string conversion
+    // T: ChatGTP, How to add JSON to PlayerPrefs + other question after that to fix the problems
     public ScoreDataContainer GetContainer()
     {
         return new ScoreDataContainer

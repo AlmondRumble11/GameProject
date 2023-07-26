@@ -96,8 +96,11 @@ public class MovingAndShootingEnemy : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, lineOfSite);
+        if (health > 0)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, lineOfSite);
+        }
     }
 
 

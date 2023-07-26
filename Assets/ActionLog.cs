@@ -29,7 +29,7 @@ public class ActionLog : MonoBehaviour
         // Remove log messages if there are more than max lines
         if (logMessages.Count > maxLogLines)
         {
-            logMessages.Dequeue();
+            logMessages.Clear();
         }
         // Add the message to the log queue
         logMessages.Enqueue(message);
@@ -54,7 +54,7 @@ public class ActionLog : MonoBehaviour
         // Remove log messages if there are more than max lines
         if (questLogMessages.Count > maxLogLines)
         {
-            questLogMessages.Dequeue();
+            questLogMessages.Clear();
         }
         // Add the message to the log queue
         questLogMessages.Enqueue(message);

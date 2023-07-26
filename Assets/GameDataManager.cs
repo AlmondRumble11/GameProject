@@ -6,17 +6,17 @@ using UnityEngine;
 public static class GameData
 {
     public static float time;
-    public static bool fullRun = true;
+    public static bool fullRun = false;
     public static int score = 0;
     public static int playerLevel = 1;
     public static List<Upgrade> playerUpgrades = new List<Upgrade>() { };
     public static float playerMovementSpeed = 10f;
-    public static int playerMaxHealth = 200000;
+    public static int playerMaxHealth = 200;
     public static int playerHealth = 0;
     public static Projectile currentPlayerProjectile = new Projectile()
     {
-        Damage = 100,
-        Type = ProjectileType.Upgraded
+        Damage = 10,
+        Type = ProjectileType.Normal
     };
     public static bool spinnerIsActive = false;
 }
