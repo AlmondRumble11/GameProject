@@ -18,8 +18,8 @@ TO BE ADDED
 Unity version 2022.3.3f1.
 
 ## Used Assets
--RPG Worlds Caves by Szadiart (https://szadiart.itch.io/rpg-worlds-ca)
--Rogue Fantasy "catacombs" by Szadiart (https://szadiart.itch.io/rogue-fantasy-catacombs?download)
+- RPG Worlds Caves by Szadiart (https://szadiart.itch.io/rpg-worlds-ca)
+- Rogue Fantasy "catacombs" by Szadiart (https://szadiart.itch.io/rogue-fantasy-catacombs?download)
 
 ## Music
 Music is created using Soundtrap (combining different existing sounds provided by the website) and it's copyright-free music note selection. Scores can be found on SoundCloud https://soundcloud.com/jesse-mustonen-122156284
