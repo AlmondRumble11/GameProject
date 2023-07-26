@@ -6,7 +6,7 @@ https://almondrumble11.itch.io/mages-descent-shadows-of-manaheim
 
 NOTE game needs to be played full screen as there is problems with the scaling
 ## Link to Youtube trailer
-TO BE ADDED
+https://youtu.be/_YZiluyvC5E 
 
 ## Download .zip file for the windows version
 1. Download the game from Google Drive: [https://drive.google.com/file/d/1fUcW8AAPGwTg3cGArpP_nAJ6oujqxgMd/view?usp=drive_link](https://drive.google.com/file/d/1BDqxV9g6NHxv9HnoCGtnMAn5epBJzWNJ/view?usp=drive_link)
