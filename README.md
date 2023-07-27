@@ -1,5 +1,6 @@
-# GameProject
+# GameProject -  Mage's Descent: Shadows of Manaheim
 Game project for CT60A5401 Game Development Project course
+Game name: Mage's Descent: Shadows of Manaheim
 
 ## Tools used
 - Game engine: Unity (https://unity.com/download)
