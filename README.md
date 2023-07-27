@@ -15,7 +15,7 @@ The game is created using the Unity game engine. It is a roguelike dungeon crawl
 ## Link to playable demo
 https://almondrumble11.itch.io/mages-descent-shadows-of-manaheim
 
-NOTE game needs to be played full screen as there is problems with the scaling
+NOTE game should to be played full screen as there are problems with the scaling
 ## Link to Youtube trailer
 https://youtu.be/_YZiluyvC5E 
 
@@ -35,7 +35,7 @@ Unity version 2022.3.3f1.
 ## Music
 Music is created using Soundtrap (combining different existing sounds provided by the website) and it's copyright-free music note selection. Scores can be found on SoundCloud https://soundcloud.com/jesse-mustonen-122156284
 
-## Tutorials and other external coding help
+## Tutorials and other external coding help (links have been added to the code as well)
 - Add log: https://discussions.unity.com/t/i-want-to-create-an-in-game-log-which-will-print-actions-that-the-player-is-making/77995/2
 - Get the player: https://www.youtube.com/watch?v=N1BKXCxM_hA
 - Shoot towards the player:https://www.youtube.com/watch?v=lHLZxd0O6XY
