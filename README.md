@@ -2,12 +2,12 @@
 Game project for CT60A5401 Game Development Project course
 
 ## Tools used
-Game engine: Unity (https://unity.com/download)
-Effects: Done manually using self-made Piskel sprites and Unity's particle effect generator
-Language: C# (language for Unity)
-IDE: Visual Studio
-Game art: Piskel (https://www.piskelapp.com/) and free Itch.io assets
-Music and SFX: effect sounds done by hand using Audacity and music done using Soundtrap (https://www.soundtrap.com/)
+- Game engine: Unity (https://unity.com/download)
+- Effects: Done manually using self-made Piskel sprites and Unity's particle effect generator
+- Language: C# (language for Unity)
+- IDE: Visual Studio
+- Game art: Piskel (https://www.piskelapp.com/) and free Itch.io assets
+- Music and SFX: effect sounds done by hand using Audacity and music done using Soundtrap (https://www.soundtrap.com/)
 
 ##  Quick Summary
 The game is created using the Unity game engine. It is a roguelike dungeon crawler with 2D pixelized graphics. The game is set to be run on Windows 10 machines. The game is placed in a fantasy world. A player is sent to an underground dungeon (arena) in which the player’s job is to kill demons, collect their hearts and send them to the upper world using the portal. There are multiple different demon types which each have their own attributes and designs. There are also boss battles. The game offers a skill system in which the player gets to acquire new skills and upgrade existing ones by levelling up. There are 4 arenas (+1 tutorial) which are all made by hand. The keyboard is used for moving and interacting with game objects. The mouse cursor is used for aiming. The game continuously gets harder as the player progresses, gains new abilities and moves towards the final boss arena.
