@@ -22,7 +22,7 @@ NOTE game should to be played full screen as there are problems with the scaling
 https://youtu.be/_YZiluyvC5E 
 
 ## Download .zip file for the windows version
-1. Download the game from Google Drive: [https://drive.google.com/file/d/1fUcW8AAPGwTg3cGArpP_nAJ6oujqxgMd/view?usp=drive_link](https://drive.google.com/file/d/1BDqxV9g6NHxv9HnoCGtnMAn5epBJzWNJ/view?usp=drive_link)
+1. Download the game from Google Drive: https://drive.google.com/file/d/1BDqxV9g6NHxv9HnoCGtnMAn5epBJzWNJ/view?usp=sharing 
 2. Extract the game to wanted location
 3. Go inside <path>\GameProject and start (double click) GameProject.exe
 4. Now the game should be playable
